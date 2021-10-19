@@ -16,6 +16,14 @@
     background-color:green;
 }
 
+#yellow-container {
+    width: 100%;
+    height: 100vh;
+    background-color:yellow;
+}
+
+
+
 .links {
     position: fixed;
     right: 0;
@@ -27,11 +35,33 @@ a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-size: 1.3em;
     text-align: center;
-    margin: 20px 10px;
+    margin: 20px 15px;
     background-color: white;
     border-radius: 50%;
-    height: 40px;
-    line-height: 40px;
-    width: 40px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
 }
+
+.text {
+    display: block;
+    text-align: center;
+    
+}
+
+.shoe-container {
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+
+.shoe-container img {
+    position:absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    object-fit: cover;
+}
+
