@@ -55,12 +55,14 @@ a:hover {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+
+
 .text {
     display: block;
     text-align: center;
     text-transform: uppercase;
     color: yellow;
-    font-size: 4em;
+    font-size: 3vw;
 }
 
 .green-text {
@@ -68,7 +70,7 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
     color: green;
-    font-size: 4em;
+    font-size: 3vw;
 }
 
 .shoe-container {
